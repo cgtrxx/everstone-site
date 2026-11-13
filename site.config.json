@@ -1,0 +1,160 @@
+{
+  "domain": "https://everstone.example",
+  "mode": "prototype",
+  "pages": [
+    "404.html",
+    "about/index.html",
+    "basement-renovations/index.html",
+    "bathroom-renovations/index.html",
+    "contact/index.html",
+    "drywall-painting/index.html",
+    "flooring/index.html",
+    "full-home-renovations/index.html",
+    "garage-renovations/index.html",
+    "index.html",
+    "kitchen-renovations/index.html",
+    "our-process/index.html",
+    "privacy-policy/index.html",
+    "projects/index.html",
+    "services/index.html"
+  ],
+  "sitemap_exclude": [
+    "404.html"
+  ],
+  "public_files": [
+    "robots.txt",
+    "sitemap.xml",
+    "licenses/DM-Sans-OFL.txt",
+    "licenses/Manrope-OFL.txt"
+  ],
+  "public_directories": [
+    "assets"
+  ],
+  "public_extensions": [
+    ".css",
+    ".js",
+    ".svg",
+    ".png",
+    ".jpg",
+    ".jpeg",
+    ".webp",
+    ".ico",
+    ".woff",
+    ".woff2",
+    ".ttf"
+  ],
+  "shared_assets": [
+    "assets/style.css",
+    "assets/main.js"
+  ],
+  "reference_page": "index.html",
+  "jsonld_required": {
+    "404.html": [
+      "WebPage"
+    ],
+    "about/index.html": [
+      "WebPage"
+    ],
+    "basement-renovations/index.html": [
+      "WebPage",
+      "FAQPage"
+    ],
+    "bathroom-renovations/index.html": [
+      "WebPage",
+      "FAQPage"
+    ],
+    "contact/index.html": [
+      "WebPage"
+    ],
+    "drywall-painting/index.html": [
+      "WebPage",
+      "FAQPage"
+    ],
+    "flooring/index.html": [
+      "WebPage",
+      "FAQPage"
+    ],
+    "full-home-renovations/index.html": [
+      "WebPage",
+      "FAQPage"
+    ],
+    "garage-renovations/index.html": [
+      "WebPage",
+      "FAQPage"
+    ],
+    "index.html": [
+      "WebPage"
+    ],
+    "kitchen-renovations/index.html": [
+      "WebPage",
+      "FAQPage"
+    ],
+    "our-process/index.html": [
+      "WebPage"
+    ],
+    "privacy-policy/index.html": [
+      "WebPage"
+    ],
+    "projects/index.html": [
+      "WebPage"
+    ],
+    "services/index.html": [
+      "WebPage"
+    ]
+  },
+  "shared_jsonld_types": [],
+  "faq_pages": [
+    "basement-renovations/index.html",
+    "bathroom-renovations/index.html",
+    "drywall-painting/index.html",
+    "flooring/index.html",
+    "full-home-renovations/index.html",
+    "garage-renovations/index.html",
+    "kitchen-renovations/index.html"
+  ],
+  "shared_blocks": {
+    "nav": "nav-links",
+    "footer": "footer"
+  },
+  "shared_block_presentation_classes": [],
+  "sharing": {
+    "width": 1320,
+    "height": 1191,
+    "max_bytes": 3000000,
+    "pages": {},
+    "default": {
+      "image": "assets/social/home.52fbe4aab42b.png",
+      "alt": "Everstone Home Renovations logo"
+    }
+  },
+  "site_name": "Everstone Home Renovations",
+  "routes": {
+    "about/index.html": "/about/",
+    "basement-renovations/index.html": "/basement-renovations/",
+    "bathroom-renovations/index.html": "/bathroom-renovations/",
+    "contact/index.html": "/contact/",
+    "drywall-painting/index.html": "/drywall-painting/",
+    "flooring/index.html": "/flooring/",
+    "full-home-renovations/index.html": "/full-home-renovations/",
+    "garage-renovations/index.html": "/garage-renovations/",
+    "index.html": "/",
+    "kitchen-renovations/index.html": "/kitchen-renovations/",
+    "our-process/index.html": "/our-process/",
+    "privacy-policy/index.html": "/privacy-policy/",
+    "projects/index.html": "/projects/",
+    "services/index.html": "/services/",
+    "404.html": "/404"
+  },
+  "asset_url_prefix": "/",
+  "response_headers": {
+    "Content-Security-Policy": "default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; media-src 'none'; object-src 'none'; frame-src 'none'; worker-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY",
+    "Referrer-Policy": "no-referrer",
+    "Cross-Origin-Resource-Policy": "same-origin",
+    "Cross-Origin-Opener-Policy": "same-origin",
+    "Cross-Origin-Embedder-Policy": "require-corp",
+    "Permissions-Policy": "camera=(), microphone=(), geolocation=(), payment=(), usb=(), serial=(), bluetooth=(), display-capture=()",
+    "X-Robots-Tag": "noindex, nofollow"
+  }
+}
