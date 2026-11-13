@@ -1,0 +1,34 @@
+name: Post-deploy asset verification
+on:
+  workflow_run:
+    workflows: [CI]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: verify-production-assets
+  cancel-in-progress: true
+jobs:
+  verify:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.workflow_run.event == 'push' &&
+       github.event.workflow_run.conclusion == 'success')
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Recreate expected artifact at deployed revision
+        run: python scripts/build.py
+      - name: Verify production revision, assets, and preload headers
+        env:
+          BASE_URL: ${{ vars.PRODUCTION_BASE_URL }}
+        run: bash scripts/deploy/verify_hashed_assets.sh
+
