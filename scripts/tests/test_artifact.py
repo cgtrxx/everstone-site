@@ -1,4 +1,4 @@
-"""The inherited publication contract, exercised against Everstone's configured routes."""
+"""The inherited publication contract, exercised against Paramount's configured routes."""
 import hashlib
 import json
 import re

@@ -48,7 +48,7 @@ class GateTests(unittest.TestCase):
         self.change('index.html','"@context":','BROKEN "@context":');self.gate('jsonld')
 
     def test_wrong_page_url_rejected(self):
-        self.change('index.html','"url": "https://everstone.example/"','"url": "https://everstone.example/wrong"');self.gate('jsonld')
+        self.change('index.html','"url": "https://paramount.example/"','"url": "https://paramount.example/wrong"');self.gate('jsonld')
 
     def test_prototype_indexing_regression_rejected(self):
         self.change('index.html','content="noindex,nofollow"','content="index,follow"');self.gate('seo')
@@ -67,7 +67,7 @@ class GateTests(unittest.TestCase):
         (self.root/config['sharing']['default']['image']).write_bytes(b'broken');self.gate('seo')
 
     def test_wrong_social_dimensions_rejected(self):
-        self.change('index.html','property="og:image:width" content="1320"','property="og:image:width" content="600"');self.gate('seo')
+        self.change('index.html','property="og:image:width" content="1200"','property="og:image:width" content="600"');self.gate('seo')
 
     def test_undefined_variable_rejected(self):
         p=self.root/'assets/style.css';p.write_text(p.read_text()+'\nbody{color:var(--undefined-ci)}');self.gate('css')
