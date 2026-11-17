@@ -12,9 +12,9 @@
 
 ## Behavior requiring launch work
 
-The contact form is a local review flow, without a sending endpoint. Phone/email and legal business details need owner verification. Draft privacy copy must match the actual production services. Inspiration photographs are not claims of completed Everstone work.
+The contact form is a local review flow, without a sending endpoint. Phone/email and legal business details need owner verification. Draft privacy copy must match the actual production services. Inspiration photographs are not claims of completed Paramount work.
 
-The Boyd pipeline now supplies CI workflows, verified dist, physical asset hashing, security headers and prototype metadata. The reserved everstone.example domain must be replaced before launch. Hosting and live verification remain external setup. See CI-CD.md.
+The Boyd pipeline now supplies CI workflows, verified dist, physical asset hashing, security headers and prototype metadata. The reserved paramount.example domain must be replaced before launch. Hosting and live verification remain external setup. See CI-CD.md.
 
 No analytics, tracking, service worker, remote font/image fetch, or package runtime is required by the site. The JSON-LD schema.org identifiers are metadata, not external browser resources.
 

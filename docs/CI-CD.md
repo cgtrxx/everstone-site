@@ -23,10 +23,10 @@ Post-deploy verification polls for the triggering revision and checks deployed H
 
 External setup remains unverified: connect Pages, configure actual hostname, set URL variable if needed, require PRs and site-gates on main, and verify previews/live deployment.
 
-## Everstone adapters
+## Paramount adapters
 
 - Nested directory-index routes, native details/summary FAQs and existing local-only form. No Boyd identity or form credentials copied.
 - Approved stylesheet preserved. Reviewed initial baseline: 86 existing override occurrences across 64 signatures. Never automatically regenerate it.
-- Sharing image reuses the 1320x1191 logo with configured dimensions/hash; dedicated social artwork is future work.
-- Domain remains reserved https://everstone.example with prototype noindex and disallowing robots policy. Replace hostname and review indexing before launch.
+- Sharing image is a 1200x630 text-only Paramount Renovations card with configured dimensions/hash. Logo artwork is unchanged pending separate brand-board review.
+- Domain remains reserved https://paramount.example with prototype noindex and disallowing robots policy. Replace hostname and review indexing before launch.
 - Same-origin security policy blocks external subresources and connections. A real form backend requires policy review and delivery tests.

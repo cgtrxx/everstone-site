@@ -172,7 +172,7 @@
 }
 /* Related-service band: lighter than the closing navy CTA, with a quiet brand mark. */
 :is(.related,.service-band){position:relative;isolation:isolate;overflow:hidden;background:#294e62;color:#fff}
-:is(.related,.service-band)::before{content:"";position:absolute;z-index:0;pointer-events:none;width:clamp(540px,52vw,920px);aspect-ratio:4/3;right:-90px;bottom:-200px;background:url('/assets/everstone-watermark.svg') center/contain no-repeat;opacity:.065}
+:is(.related,.service-band)::before{content:"";position:absolute;z-index:0;pointer-events:none;width:clamp(540px,52vw,920px);aspect-ratio:4/3;right:-90px;bottom:-200px;background:url('/assets/paramount-watermark.svg') center/contain no-repeat;opacity:.065}
 :is(.related,.service-band)>.container{position:relative;z-index:1}
 :is(.related,.service-band) h2{color:#fff}
 :is(.related,.service-band) h2 em{color:#91d5f4}

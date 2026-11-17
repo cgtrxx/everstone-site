@@ -1,5 +1,5 @@
 {
-  "domain": "https://everstone.example",
+  "domain": "https://paramount.example",
   "mode": "prototype",
   "pages": [
     "404.html",
@@ -118,16 +118,16 @@
   },
   "shared_block_presentation_classes": [],
   "sharing": {
-    "width": 1320,
-    "height": 1191,
+    "width": 1200,
+    "height": 630,
     "max_bytes": 3000000,
     "pages": {},
     "default": {
-      "image": "assets/social/home.52fbe4aab42b.png",
-      "alt": "Everstone Home Renovations logo"
+      "image": "assets/social/paramount.0559d5e570a6.png",
+      "alt": "Paramount Renovations"
     }
   },
-  "site_name": "Everstone Home Renovations",
+  "site_name": "Paramount Renovations",
   "routes": {
     "about/index.html": "/about/",
     "basement-renovations/index.html": "/basement-renovations/",
