@@ -170,6 +170,20 @@
 @media(min-width:901px){
  .page-hero>.container{width:min(calc(100% - 80px),1340px)}
 }
+/* Shared quote/contact banners, adapted from the owner's Foundations site. */
+.quote-banner{position:sticky;top:0;z-index:40;background:var(--deep);color:#fff;padding:10px 0;font-size:1rem;line-height:1.5;text-align:center}
+.quote-banner>.container{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:4px 12px}
+.quote-banner a{color:#91d5f4;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.mobile-contact-bar{display:none;position:fixed;left:0;right:0;bottom:0;z-index:50;gap:10px;background:var(--deep);border-top:1px solid var(--line);padding:10px 10px calc(10px + env(safe-area-inset-bottom,0px))}
+.mobile-contact-bar a{display:flex;flex:1;align-items:center;justify-content:center;min-height:48px;padding:10px 12px;background:var(--blue);color:#fff;font-size:.9rem;line-height:1.4;font-weight:700;text-align:center}
+.mobile-contact-bar a:last-child{background:var(--pale);color:var(--navy)}
+.footer a[href^="mailto:"],.contact-detail a[href^="mailto:"]{overflow-wrap:anywhere}
+@media(max-width:850px){
+ .quote-banner{display:none}
+ .mobile-contact-bar{display:flex}
+ body{padding-bottom:calc(88px + env(safe-area-inset-bottom,0px))}
+ html{scroll-padding-bottom:calc(100px + env(safe-area-inset-bottom,0px))}
+}
 /* Related-service band: lighter than the closing navy CTA, with a quiet brand mark. */
 :is(.related,.service-band){position:relative;isolation:isolate;overflow:hidden;background:#294e62;color:#fff}
 :is(.related,.service-band)::before{content:"";position:absolute;z-index:0;pointer-events:none;width:clamp(540px,52vw,920px);aspect-ratio:4/3;right:-90px;bottom:-200px;background:url('/assets/paramount-watermark.svg') center/contain no-repeat;opacity:.065}
