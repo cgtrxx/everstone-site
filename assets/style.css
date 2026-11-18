@@ -181,7 +181,7 @@
 @media(max-width:850px){
  .quote-banner{display:none}
  .mobile-contact-bar{display:flex}
- body{padding-bottom:calc(88px + env(safe-area-inset-bottom,0px))}
+ .footer{padding-bottom:calc(69px + env(safe-area-inset-bottom,0px))}
  html{scroll-padding-bottom:calc(100px + env(safe-area-inset-bottom,0px))}
 }
 /* Related-service band: lighter than the closing navy CTA, with a quiet brand mark. */

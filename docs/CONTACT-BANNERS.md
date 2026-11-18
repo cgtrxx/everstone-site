@@ -4,7 +4,7 @@
 
 Adapt the owner's https://foundationsasphaltconcrete.ca/ implementation to Paramount: a sticky desktop quick-quote strip above the header and a fixed mobile Call Now / Free Quote bar. Both are included on all 15 configured pages, including 404. Use Paramount's existing navy/blue colors and typography, not Foundations' yellow palette or business claims.
 
-Like the reference, switch at 850px: hide the top strip and show the bottom bar on smaller screens. The bottom bar includes 48px minimum touch targets, keyboard focus inherited from the site, safe-area padding, document-bottom clearance and scroll padding to keep the final footer links reachable. The existing navigation remains unchanged.
+Like the reference, switch at 850px: hide the top strip and show the bottom bar on smaller screens. The bottom bar includes 48px minimum touch targets, keyboard focus inherited from the site, safe-area padding, dark-footer bottom clearance and scroll padding to keep the final footer links reachable. Clearance is 69px plus the safe-area inset, matching the bar's 48px buttons, 20px padding and 1px border. It is inside the footer rather than the white body, preventing a white strip at the page bottom. The existing navigation remains unchanged.
 
 The owner explicitly approved using Foundations' contact information: (905) 517-6765 and bryan.larocque@hotmail.com. Both call links use tel:+19055176765. Free Quote links to /contact/#estimate-form. Replace the shared footer's unverified-contact placeholder with these phone/email links, and replace the equivalent contact-page placeholder. No claim about Paramount form delivery is added: the existing local-only form still does not send inquiries.
 
