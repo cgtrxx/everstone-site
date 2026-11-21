@@ -168,5 +168,61 @@
     "sha256": "079b1faaa717f3faad255f693602e55f7c8c82b317317bc30da06d876e2d69a5",
     "bytes": 190464,
     "usage": "Bathroom design inspiration throughout site; not represented as Paramount project photography"
+  },
+  {
+    "path": "assets/local/project-gallery-01.69d5d721de1f.jpg",
+    "source": "User-provided attachment codex-clipboard-dca328ef-1ef5-42cb-b16d-eff859902273.png",
+    "license": "User-provided; independent licensing not verified",
+    "sha256": "69d5d721de1f2ec7565155f215a42f97f94d15e8cdb6935606f2623b43b7a15d",
+    "bytes": 77542,
+    "usage": "Projects page gallery; descriptive captions only, project attribution not independently verified"
+  },
+  {
+    "path": "assets/local/project-gallery-02.b65cfb63bb1a.jpg",
+    "source": "User-provided attachment codex-clipboard-de77b009-1088-42a0-8eed-433c2e490c03.png",
+    "license": "User-provided; independent licensing not verified",
+    "sha256": "b65cfb63bb1a9d49a6cc70ee7f59b96b8ba895bbe04199703a3de7362c4b76b6",
+    "bytes": 72854,
+    "usage": "Projects page gallery; descriptive captions only, project attribution not independently verified"
+  },
+  {
+    "path": "assets/local/project-gallery-03.26965f2a2a46.jpg",
+    "source": "User-provided attachment codex-clipboard-796115ae-2f5b-409e-80af-c96b3d365cdc.png",
+    "license": "User-provided; independent licensing not verified",
+    "sha256": "26965f2a2a46120113c5efe2f548077bf55bd70cb4887c18be9e80285d5ef9b9",
+    "bytes": 59839,
+    "usage": "Projects page gallery; descriptive captions only, project attribution not independently verified"
+  },
+  {
+    "path": "assets/local/project-gallery-04.5a6f7a1b3515.jpg",
+    "source": "User-provided attachment codex-clipboard-d8da2216-a4b3-40db-8f1a-c43c7dcd2b93.png",
+    "license": "User-provided; independent licensing not verified",
+    "sha256": "5a6f7a1b35155b450306729bd2aeffe0fe90066375de0323a6fb8dc7557614e4",
+    "bytes": 61519,
+    "usage": "Projects page gallery; descriptive captions only, project attribution not independently verified"
+  },
+  {
+    "path": "assets/local/project-gallery-05.f787290d8eae.jpg",
+    "source": "User-provided attachment codex-clipboard-ec78134f-c45b-4634-b72f-ef51ef34ffb9.png",
+    "license": "User-provided; independent licensing not verified",
+    "sha256": "f787290d8eae1ffbcc0ad76a7987ee9622f14a447ff90db8d5d9862243e5a81b",
+    "bytes": 62397,
+    "usage": "Projects page gallery; descriptive captions only, project attribution not independently verified"
+  },
+  {
+    "path": "assets/local/project-gallery-06.7e10c60c13f7.jpg",
+    "source": "User-provided attachment codex-clipboard-968c81bb-bdfe-4989-84a5-d144186d75ce.png",
+    "license": "User-provided; independent licensing not verified",
+    "sha256": "7e10c60c13f7e7a83580858448214608865c561a63647d90577b97343720fbd2",
+    "bytes": 61823,
+    "usage": "Projects page gallery; descriptive captions only, project attribution not independently verified"
+  },
+  {
+    "path": "assets/local/project-gallery-07.4a73a030ec05.jpg",
+    "source": "User-provided attachment codex-clipboard-33032694-d0a7-47b5-a787-08af12e95de7.png",
+    "license": "User-provided; independent licensing not verified",
+    "sha256": "4a73a030ec052ce114013b64f4802a97a4c9d12f349953f071f341c67c03ec66",
+    "bytes": 52189,
+    "usage": "Projects page gallery; descriptive captions only, project attribution not independently verified"
   }
 ]
