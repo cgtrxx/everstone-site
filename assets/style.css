@@ -2006,3 +2006,12 @@ p {
     display: none;
   }
 }
+
+/* Let About hero copy set the height rather than the portrait image. */
+.about-hero .page-hero-image {
+  position: relative;
+}
+.about-hero .page-hero-image img {
+  position: absolute;
+  inset: 0;
+}
