@@ -108,5 +108,65 @@
     "source": "https://fonts.gstatic.com/s/manrope/v23/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk7PFO_F.ttf",
     "sha256": "437dc9f921739a6893128fa4dfc299424951148475815a9a213a46457878c42b",
     "bytes": 96300
+  },
+  {
+    "path": "assets/local/kitchen-inspiration.f62501892f37.jpg",
+    "source": "https://unsplash.com/photos/modern-kitchen-with-island-and-marble-backsplash-hhDYh0_YQIA",
+    "download": "https://images.unsplash.com/photo-1772567733061-f7b44c0587b0?auto=format&fit=max&w=1400&q=85&fm=jpg",
+    "author": "Franco Debartolo",
+    "license": "https://unsplash.com/license",
+    "sha256": "f62501892f37eefc2124c0ee0521159469bab7a8d44992d91df79f402e06bc17",
+    "bytes": 150742,
+    "usage": "Homepage service-card inspiration; not Paramount project photography"
+  },
+  {
+    "path": "assets/local/basement-inspiration.4fd2451e0656.jpg",
+    "source": "User-provided attachment codex-clipboard-60037024-1243-4117-bff7-362d63d5ab4f.png",
+    "license": "User-provided; independent licensing not verified",
+    "sha256": "4fd2451e06563d3b1a394672c6fe9b4a308f1096f681da0bcb5153c476dbff2b",
+    "bytes": 343203,
+    "usage": "Basement design inspiration throughout site; not represented as Paramount project photography"
+  },
+  {
+    "path": "assets/local/cabinetry-detail.5f71257393c3.jpg",
+    "source": "https://unsplash.com/photos/modern-built-in-shelving-unit-with-decorative-items-qbe_iid81xU",
+    "download": "https://images.unsplash.com/photo-1772567732941-3014d6360c76?auto=format&fit=max&w=1400&q=85&fm=jpg",
+    "author": "Franco Debartolo",
+    "license": "https://unsplash.com/license",
+    "sha256": "5f71257393c339de2dd56e1fc233d7f8481a62e3dad1205d1dce945c0f14c03c",
+    "bytes": 406344,
+    "usage": "Interior craftsmanship design inspiration throughout site; not Paramount project photography"
+  },
+  {
+    "path": "assets/local/drywall-painting-inspiration.990d94635524.jpg",
+    "source": "User-provided attachment codex-clipboard-c2b82a6d-3e0a-4fea-bf2a-8d2ef47a206b.png",
+    "license": "User-provided; independent licensing not verified",
+    "sha256": "990d946355245f67a17572d33b2c7f3a71b1a1ce91dd2eb6b9588283a9ccd9d0",
+    "bytes": 208214,
+    "usage": "drywall-painting service-page inspiration; not represented as Paramount project photography"
+  },
+  {
+    "path": "assets/local/flooring-inspiration.8a5ced572a2b.jpg",
+    "source": "User-provided attachment codex-clipboard-480055da-8d0b-4c43-a7b7-d77d5748731c.jpg",
+    "license": "User-provided; independent licensing not verified",
+    "sha256": "8a5ced572a2bdc0ac060783ea7608145281a8a7bde43ed1a09e29f6aa4452b4d",
+    "bytes": 280218,
+    "usage": "flooring service-page inspiration; not represented as Paramount project photography"
+  },
+  {
+    "path": "assets/local/garage-inspiration.40c548ed44d9.jpg",
+    "source": "User-provided attachment codex-clipboard-adad9393-fba7-4e5e-8a82-f86995cfc53e.png",
+    "license": "User-provided; independent licensing not verified",
+    "sha256": "40c548ed44d9082380a5dab946377be28af99416f8ff5d9789b7b3e32d55e4f8",
+    "bytes": 313572,
+    "usage": "Garage renovation design inspiration; not represented as Paramount project photography"
+  },
+  {
+    "path": "assets/local/bathroom-inspiration.079b1faaa717.jpg",
+    "source": "User-provided attachment codex-clipboard-c6807587-1b3c-48d7-8132-1e62a6d8aa56.png",
+    "license": "User-provided; independent licensing not verified",
+    "sha256": "079b1faaa717f3faad255f693602e55f7c8c82b317317bc30da06d876e2d69a5",
+    "bytes": 190464,
+    "usage": "Bathroom design inspiration throughout site; not represented as Paramount project photography"
   }
 ]
