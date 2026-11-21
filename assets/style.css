@@ -907,17 +907,6 @@ p {
 .timeline p {
   max-width: 650px;
 }
-.prominent {
-  font-size: 0.9rem;
-  background: var(--pale);
-  padding: 20px;
-  margin-bottom: 30px;
-}
-.empty-projects {
-  margin-top: 75px;
-  border-top: 1px solid var(--line);
-  padding-top: 45px;
-}
 .contact-grid {
   display: grid;
   grid-template-columns: 0.8fr 1.2fr;
@@ -1406,10 +1395,6 @@ p {
 .timeline article {
   padding: 28px 0;
 }
-.empty-projects {
-  margin-top: 42px;
-  padding-top: 28px;
-}
 @media (max-width: 1120px) {
   .feature-grid {
     gap: 44px;
@@ -1559,11 +1544,7 @@ p {
   .contact-grid {
     gap: 28px;
   }
-  .empty-projects {
-    margin-top: 32px;
-    padding-top: 24px;
   }
-}
 
 /* A warmer, editorial voice for the trust statement. */
 .intro-strip p {
@@ -1918,4 +1899,110 @@ p {
 .service-overview .split-content > div:first-child > h2,
 .service-faq .faq > div:first-child > h2 {
   margin-bottom: 0;
+}
+
+/* Projects: an editorial photo rail, usable with native scrolling and no scripts. */
+.project-gallery > .container {
+  width: min(calc(100% - 80px), 1340px);
+}
+.project-gallery-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 32px;
+  margin-bottom: 24px;
+}
+.project-gallery-heading h2 {
+  margin-bottom: 0;
+}
+.project-gallery-track {
+  display: flex;
+  overflow-x: auto;
+  isolation: isolate;
+  list-style: none;
+  margin: 0;
+  padding: 12px 6px 28px;
+  scroll-snap-type: x proximity;
+  scroll-padding-inline: 6px;
+  scrollbar-color: var(--blue) var(--pale);
+  scrollbar-width: thin;
+}
+.project-gallery-card {
+  position: relative;
+  flex: 0 0 25%;
+  min-width: 250px;
+  scroll-snap-align: center;
+  border: 6px solid #fff;
+  background: #fff;
+  box-shadow: 0 6px 18px rgb(17 47 62 / 12%);
+}
+.project-gallery-card + .project-gallery-card {
+  margin-left: -18px;
+}
+.project-gallery-card:nth-child(even) {
+  margin-top: 20px;
+}
+.project-gallery-card:hover,
+.project-gallery-card:focus-within {
+  z-index: 1;
+}
+.project-gallery-card a {
+  display: block;
+}
+.project-gallery-card img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+.project-gallery-caption {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 16px 8px;
+  color: var(--navy);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+.project-gallery-caption > span:last-child {
+  color: var(--blue);
+}
+.project-gallery-track:focus-visible,
+.project-gallery-card a:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: -2px;
+}
+.project-gallery-note {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 18px;
+  color: var(--muted);
+  font-size: 0.62rem;
+  letter-spacing: 0.12em;
+}
+@media (max-width: 900px) {
+  .project-gallery > .container {
+    width: calc(100% - 40px);
+  }
+  .project-gallery-heading {
+    display: block;
+  }
+    .project-gallery-card {
+    flex-basis: 72%;
+    min-width: 0;
+  }
+  .project-gallery-card img {
+    height: 260px;
+  }
+}
+@media (max-width: 620px) {
+  .project-gallery-card {
+    flex-basis: 86%;
+  }
+  .project-gallery-card img {
+    height: 220px;
+  }
+  .project-gallery-note > span:last-child {
+    display: none;
+  }
 }

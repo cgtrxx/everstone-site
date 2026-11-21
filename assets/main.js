@@ -19,6 +19,11 @@
       }
     });
   }
+  // Start the Projects photo rail at its midpoint; subsequent scrolling is native.
+  const gallery = document.querySelector('.project-gallery-track');
+  if (gallery) {
+    gallery.scrollLeft = (gallery.scrollWidth - gallery.clientWidth) / 2;
+  }
   const year = document.querySelector('#year');
   if (year) year.textContent = new Date().getFullYear();
   const form = document.querySelector('#estimate-form');
